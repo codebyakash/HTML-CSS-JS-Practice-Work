@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="#F7C5CC">
+    <form action="">
+      <div align="center">
+         <h1>Registration Form</h1>
+         <table>
+            <p>
+               <tr>
+            <td>First Name: </td>
+            <td><input type="text" name="fname" placeholder="Enter your name" required></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" placeholder="Enter your last name"></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Moblie No: </td>
+            <td>
+                <select name="countrycode" id="countrycode">
+                    <option value="+91">+91</option>
+                    <option value="+1">+1</option>
+                    <option value="+86">+86</option>
+                    <option value="+45">+45</option>
+                    <option value="+81">+81</option>
+                </select>
+                <input type="number" min="1000000000" maxlength="10" name="mnumber" placeholder="Enter your phone number" required>
+            </td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Email Id: </td>
+            <td><input type="email" name="email" placeholder="ex: abc123@gamil.com" required></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>City Name: </td>
+            <td><input type="text" name="city" placeholder="Your city"></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>State Name: </td>
+            <td><input type="text" name="state" placeholder="Your state" required></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Gender: </td>
+            <td>
+                <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+                <input type="radio" name="gender" value="other"required>Other 
+            </td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Course Name:</td>
+            <td>
+                <input type="checkbox" name="course" value="O-Level">O-Level
+                <input type="checkbox" name="course" value="Java">Java
+                <input type="checkbox" name="course" value="Python">Python
+                <input type="checkbox" name="course" value="HTML">HTML
+            </td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+           <td>Institute Name:</td>
+           <td> <input type="text" name="institute" value="Learning Point" readonly></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" placeholder="password" required></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td>Confirm Password:</td>
+            <td><input type="password" name="cpassword" placeholder="confirm password"></td>
+         </tr>
+        </p>
+        <p>
+         <tr>
+            <td><button>Submit</button></td>
+         </tr>
+        </p>
+    </table>
+    </div>
+</form>
+</body>
+</html>
