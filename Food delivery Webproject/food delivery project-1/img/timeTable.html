@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+      #title{
+        position: absolute;
+       justify-content: center;
+       text-align: center;
+        width: 913px;
+        top: 0px;
+      }
+        #monday{
+            height: 50px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        #tuesday{
+            height: 50px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        #wednesday{
+            height: 50px;
+            text-align: center;
+        }
+        #thursday{
+            height: 50px;
+            text-align: center;
+        }
+        #friday{
+            height: 50px;
+            text-align: center;
+        }
+        
+        table{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <thead><th>
+        <h1 id="title">TIME TABLE</h1>
+    </th></thead>
+    <br><br><br>
+    <table>
+        <thead style="background-color: yellow; height: 50px;">
+            <th style="border: 2px solid black;">Days/Periods</th>
+            <th style="border: 2px solid black;">I(9:30-10:20)</th>
+            <th style="border: 2px solid black;">II(10:20-11:10)</th>
+            <th style="border: 2px solid black;">III(11:10-12:00)</th>
+            <th style="border: 2px solid black;">12:00-12:40</th>
+            <th style="border: 2px solid black;">IV(12:40-1:30)</th>
+            <th style="border: 2px solid black;">V(1:30-2:20)</th>
+            <th style="border: 2px solid black;">VI(2:20-3:10)</th>
+            <th style="border: 2px solid black;">VII(3:10-4:00)</th>
+        </thead>
+        <tbody style="background-color: yellow;">
+            <tr id="monday" style="background-color: pink;">
+                <th style="border: 2px solid black;">Monday</th>
+                <td style="border: 2px solid black;">Eng</td>
+                <td style="border: 2px solid black;">Ma</td>
+                <td style="border: 2px solid black;">Che</td>
+                <td style="border: 2px solid black;" rowspan="6"><h2>LUNCH</h2></td>
+                <td style="border: 2px solid black;" colspan="3">LAB</td>
+                <td style="border: 2px solid black;">Phy</td>
+            </tr>
+            <tr id="tuesday" style="background-color: rgb(181, 181, 242);">
+                <th style="border: 2px solid black;">Tuesday</th>
+                <td style="border: 2px solid black;" colspan="3">LAB</td>
+                <td style="border: 2px solid black;">Eng</td>
+                <td style="border: 2px solid black;">Che</td>
+                <td style="border: 2px solid black;">Mat</td>
+                <td style="border: 2px solid black;">sports</td>
+              
+            </tr>
+            <tr id="wednesday" style="background-color: pink;">
+                <th style="border: 2px solid black;">Wednesday</th>
+                <td style="border: 2px solid black;">Mat</td>
+                <td style="border: 2px solid black;">Phy</td>
+                <td style="border: 2px solid black;">Eng</td>>
+                <td style="border: 2px solid black;">Che</td>
+                <td style="border: 2px solid black;" colspan="3">Library</td>
+            </tr>
+            <tr id="thursday" style="background-color: rgb(181, 181, 242);">
+                <th style="border: 2px solid black;">Thursday</th>
+                <td style="border: 2px solid black;">Phy</td>
+                <td style="border: 2px solid black;">Eng</td>
+                <td style="border: 2px solid black;">Che</td>
+                <td style="border: 2px solid black;" colspan="3">Lab</td>
+                <td style="border: 2px solid black;">Mat</td>
+            </tr>
+            <tr id="friday" style="background-color: pink;">
+                <th style="border: 2px solid black;">Friday</th>
+                <td style="border: 2px solid black;">Phy</td>
+                <td style="border: 2px solid black;">Eng</td>
+                <td style="border: 2px solid black;">Che</td>
+                <td style="border: 2px solid black;" colspan="3">Lab</td>
+                <td style="border: 2px solid black;">Mat</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
