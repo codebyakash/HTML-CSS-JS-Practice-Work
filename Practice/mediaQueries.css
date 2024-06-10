@@ -1,0 +1,23 @@
+  @media (min-width: 500px) and (max-width: 800px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        @media (min-width: 800px) {
+            body {
+                background-color: aqua;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+
+        @media (min-width: 1500px) {
+            body {
+                background-color: blueviolet;
+            }
+        }
