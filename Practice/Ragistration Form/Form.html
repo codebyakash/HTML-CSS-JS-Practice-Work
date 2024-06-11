@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using fieldset tag</title>
+</head>
+
+<body bgcolor="#d6aafa">
+    <form action="">
+        <div class="para1">
+            <fieldset>
+                <legend>
+                    <h4>Personal Info</h4>
+                </legend>
+                <table>
+                    <div>
+                        <tr>
+                            <td> <label for="fname">First Name: </label></td>
+                            <td><input type="text" id="fname" placeholder="Enter your first name" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="lname">Last Name: </label></td>
+                            <td><input type="text" id="lname" placeholder="Enter your last name"></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="dob">Date Of Birth: </label></td>
+                            <td><input type="date" id="dob" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="gender">Gender: </label></td>
+                            <td><input type="radio" id="gender" name="Male" value="male" required> Male
+                                <input type="radio" id="gender" name="Male" value="male" required> Male
+                                <input type="radio" id="gender" name="Male" value="male" required> Male
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="frname">Father Name: </label></td>
+                            <td><input type="text" id="frname" required></td>
+                        </tr>
+                    </div>
+                </table>
+            </fieldset><br>
+        </div>
+        <div class="para2">
+            <fieldset>
+                <legend>
+                    <h4>Contact Info</h4>
+                </legend>
+                <table>
+                    <div>
+                        <tr>
+                            <td> <label for="email">Email Id: </label></td>
+                            <td><input type="email" id="email" placeholder="Enter your mail" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="mnumber">Phone No: </label></td>
+                            <td><input type="number" id="mnumber" required></td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label for="address">Address: </label></td>
+                            <td><textarea name="address" id="address"></textarea></td>
+                        </tr>
+                    </div>
+                </table>
+            </fieldset><br>
+            <div class="para3">
+                <fieldset>
+                    <legend>
+                        <h4>Education Details</h4>
+                    </legend>
+                    <table>
+                        <div>
+                            <tr>
+                                <td> <label for="10m">10th Class Marks: </label></td>
+                                <td><input type="text" id="10m" placeholder="Enter your marks" required></td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td> <label for="10y">10th Passing year: </label></td>
+                                <td><input type="date" id="10y" required></td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td> <label for="12m">12th Class Marks: </label></td>
+                                <td><input type="text" id="12m" placeholder="Enter your marks" required></td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td> <label for="12y">12th Passing year: </label></td>
+                                <td><input type="date" id="12y" required></td>
+                            </tr>
+                        </div>
+                        <div>
+                            <tr>
+                                <td> <label for="graduation">Graduation Course : </label></td>
+                                <td><select name="graduation" id="graduation">
+                                        <option value="BCA">BCA</option>
+                                        <option value="BSc">BSc</option>
+                                        <option value="BA">BA</option>
+                                        <option value="B.COM">B.COM</option>
+                                        <option value="BBA">BBA</option>
+                                    </select></td>
+                            </tr>
+                        </div>
+                    </table>
+                </fieldset><br>
+                <button>Submit</button>
+            </div>
+    </form>
+</body>
+
+</html>
