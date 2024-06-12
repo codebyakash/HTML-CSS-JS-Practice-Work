@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event</title>
+    <style>
+        button{
+            padding: 5px 10px;
+            background-color: red;
+            border: 2px solid rgb(242, 245, 58);
+            color: white;
+            border-radius: 7px;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p id="para">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. <br>Ipsa nihil cum aliquam assumenda
+            officia ratione consequuntur <br>in neque voluptate,
+            vel, minus iusto. Voluptatem laborum nemo ex <br>
+            pariatur nulla facere inventore veritatis dicta
+            maxime deleniti? <br> Lorem ipsum, dolor sit amet 
+            consectetur adipisicing elit. <br> Obcaecati, a dicta 
+            necessitatibus laboriosam distinctio esse, <br> commodi 
+            cupiditate minus dolorum eveniet animi aperiam at <br>
+            quaerat suscipit blanditiis, atque incidunt repellendus 
+            laudantium <br>quas asperiores odio culpa reiciendis qui 
+            quod! Nihil illum nisi vitae fugiat <br> nesciunt aspernatur,
+             aut, eum eius quae ab molestiae suscipit, porro <br> in 
+             recusandae. Ratione ex quibusdam unde quia?</p>
+    </div>
+    <button id="btn" onclick="toggle()">Show/Hide</button>
+    <script>
+       function toggle(){
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display =='none'){
+                para.style.display= 'block';
+            }else{
+                para.style.display= 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
