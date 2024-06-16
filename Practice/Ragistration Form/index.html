@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <form action="">
+        <table border="0" bgcolor="#9dcfca" width="100%" cellpadding="5" cellspacing="10">
+            <tr>
+                <td>
+                    <font face="arial" align="center">
+                        <h1>Survey Form</h1>
+                    </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table align="center" border="0" bgcolor="white" width="80%" cellpadding="0" cellspacing="10">
+                        <tr>
+                            <td align="center" colspan="2">
+                                <font face="arial" size="4">
+                                    <p>Let us know we can improve freeCodeCamp</p>
+                                </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" width="50%">
+                                <label for="name">
+                                    <font face="arial" size="3">* Name: </font>
+                                </label>
+                            </td>
+                            <td align="left">
+                                <font face="arial" size="5">
+                                    <input type="text" id="name" placeholder="Enter your name" required size="30">
+                                </font>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td align="right" width="50%">
+                                <label for="email">
+                                    <font face="arial" size="3">* Email: </font>
+                                </label>
+                            </td>
+                            <td align="left">
+                                <font face="arial" size="5">
+                                    <input type="email" id="email" placeholder="Enter your Email" required size="30">
+                                </font>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td align="right" width="50%">
+                                <label for="age">
+                                    <font face="arial" size="3">* Age: </font>
+                                </label>
+                            </td>
+                            <td align="left">
+                                <font face="arial" size="5">
+                                    <input type="number" id="age" placeholder="Enter your Age" required size="30">
+                                </font>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td align="right" width="50%">
+                                <label for="role">
+                                    <font face="arial" size="3">Which option best describes your current role? </font>
+                                </label>
+                            </td>
+                            <td align="left" size="">
+                                <font face="arial" width="100%" size="5">
+                                    <select name="role" id="role" >
+                                        <option value="student" value="student">Student</option>
+                                        <option value="student" value="employee">Employeer</option>
+                                        <option value="student" value="businessman">Businessman</option>
+                                    </select></font>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <td align="right" width="50%">
+                            <label for="review">
+                                <font face="arial" size="3">* How likely is that you would
+                                    recommend <br>freeCodeCamp to a friend? </font>
+                            </label>
+                        </td>
+                        <td align="left">
+                            <input type="radio" id="review" name="radio" value="definitely" required
+                                placeholder="Enter your name">Definitely <br>
+                            <input type="radio" id="review" name="radio" value="maybe" required
+                                placeholder="Enter your name">Maybe <br>
+                            <input type="radio" id="review" name="radio" value="not sure" required
+                                placeholder="Enter your name">Not sure
+                        </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td align="right" width="50%">
+                    <label for="role">
+                        <font face="arial" size="3">What do you like most in FCC: </font>
+                    </label>
+                </td>
+                <td align="left" size="">
+                    <font face="arial" width="100%" size="5">
+                        <select name="role" id="role" required>
+                            <option value="student">
+                                <font size="5">Select an option</font>
+                            </option>
+                        </select></font>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td align="right" width="50%">
+                    <label for="skill">
+                        <font face="arial" size="3">Things that should be improved in the future
+                            <br>(check all that apply):
+                        </font>
+                </td>
+                <td align="bottom">
+                    </label>
+                    <font face="arial">
+                        <input type="radio" id="skill" name="checkbox" value="Front-end Projects" required>Front-end Projects
+                        <br>
+                        <input type="radio" id="skill" name="checkbox" value="Back-end Projects" required>Back-end Projects <br>
+                        <input type="radio" id="skill" name="checkbox" value="Data Visualization" required>Data Visualization
+                    </font>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr><td align="right"><Button>Submit</Button></td></tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </form>
+</body>
+
+</html>
