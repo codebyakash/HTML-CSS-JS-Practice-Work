@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.status(200).render('index.pug', params)
 })
 app.post('/', (req, res) => {
-    name = req.body.nam
+    name = req.body.name
     age = req.body.age
     gender = req.body.gender
     address = req.body.address
