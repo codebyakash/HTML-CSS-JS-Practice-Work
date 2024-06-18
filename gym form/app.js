@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 const app = express();
-const por = 80;
+const port = 80;
 
 // EXPRESS SPEIFIC STUFF
 app.use('/static', express.static('static')) // for serving static files
