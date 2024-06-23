@@ -1,0 +1,31 @@
+doctype html
+html
+  head 
+    title Akash Dance Academy
+    style 
+         include ../static/style.css
+  body
+    nav#navbar 
+       ul
+           li #[a(href="/") Home] 
+           li #[a(href="/") About] 
+           li #[a(href="/") Services] 
+           li #[a(href="/") class info] 
+           li #[a(href="/") Contact us]
+    section#introSection 
+     div Welcome to Akash's Dance Academy
+     div.small Eatd Sleep Dance Repeat
+    section#missionSection
+     h2 Our Mission
+     div.card 
+       h3 This is a para 
+     div.card 
+       h3 This is a para 
+     div.card 
+       h3 This is a para 
+    section#sponsorSection
+     h2 Our Sponsor
+    footer#footer
+     | our footer here
+    script
+    include ../static/index.js
