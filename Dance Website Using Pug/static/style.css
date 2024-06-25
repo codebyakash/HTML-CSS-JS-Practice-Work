@@ -3,6 +3,19 @@
     box-sizing: border-box;
     padding: 0;
 }
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 40px;
+
+}
+#logo img{
+    height: 32px;
+    filter: invert(1);
+}
 #navbar{
 
     background-color: red;
@@ -11,7 +24,8 @@
 }
 #navbar ul{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 #navbar li{
     list-style: none;
@@ -65,6 +79,29 @@
 .card h3{
     text-align: center;
     margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 7px 10px;
+}
+.card-img img{
+    height: inherit;
+   
+}
+.card-content{
+    padding: 0px 20px;
+
+}
+.card-content p {
+    font-size: 15px;
 }
 #sponsorSection{
     height: 300px;
