@@ -1,0 +1,43 @@
+extends base.pug 
+
+block scripts 
+  script(src='./static/index.js')
+
+block style 
+    style 
+         include ../static/style.css
+
+block content 
+    section#introSection 
+     div Welcome to Akash's Dance Academy
+     div.small Eatd Sleep Dance Repeat
+    section#missionSection
+     h2 Our Mission
+     div.card 
+       h3 Dance Perfection
+       div.card-box 
+           div.card-img 
+             img(src="/static/flip.png") 
+           div.card-content 
+            p This is the best dance academy of the Universe
+     div.card 
+       h3 Dance the way you like
+       div.card-box
+           div.card-img 
+             img( src="/static/flip2.png") 
+           div.card-content 
+            p This is the best dance academy of the Universe 
+     div.card 
+       h3 Expert Teaching 
+       div.card-box
+           div.card-img 
+             img(src="/static/flip3.png") 
+           div.card-content 
+            p This is the best dance academy of the Universe
+    section#sponsorSection
+     h2 Our Sponsor
+     div#sponsors 
+         img(class="spImage" src="../static/apple.png", alt="")
+         img(class="spImage" src="../static/microsoft logo.png", alt="")
+         img(class="spImage" src="../static/skypee logo.png", alt="")
+         img(class="spImage" src="../static/HP logo.png", alt="")
